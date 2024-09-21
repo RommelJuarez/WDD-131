@@ -1,4 +1,4 @@
-
+/** **/
 body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
@@ -6,7 +6,6 @@ body {
 
 .parent {
     display: grid;
-    
     grid-template: auto 1fr auto/auto 1fr auto;
     background-color: #fefae0;
 
@@ -53,7 +52,7 @@ h1 {
 
 main {
     background-color: white;
-    grid-column: 1/4;
+    
     display: flex;
 
     
