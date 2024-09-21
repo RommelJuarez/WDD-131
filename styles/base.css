@@ -1,6 +1,6 @@
-/** **/
+
 body {
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -52,8 +52,8 @@ h1 {
 
 main {
     background-color: white;
-
-    /**display: flex;**/
+    grid-column: 1/4;
+    display: flex;
 }
 
 footer {
