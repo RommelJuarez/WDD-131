@@ -43,7 +43,7 @@ h1 {
     color: inherit;
 }
 
-.nav-bar a:hover{
+.nav-bar a:hover {
     background-color: #dda15e;
     transition: background-color 0.3s ease;
     color: white;
@@ -52,12 +52,8 @@ h1 {
 
 main {
     background-color: white;
-    
-    display: flex;
 
-    
-    
-    
+    /**display: flex;**/
 }
 
 footer {
