@@ -1,19 +1,19 @@
 
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
     font-family: 'Roboto', sans-serif;
 }
 
-.parent {
-    display: grid;
-    grid-template: auto 1fr auto/auto 1fr auto;
-    background-color: #fefae0;
 
-}
 
 header {
     background-color: #606c38;
-    grid-column: 1/4;
+    margin: 0;
     text-align: center;
 
 }
@@ -52,43 +52,50 @@ h1 {
 
 main {
     background-color: white;
-    grid-column: 1/4;
-    display: flex;
+    display: grid;
+    grid-template: 1fr/ 1fr auto;
 }
 
 footer {
     background-color: #606c38;
-    grid-column: 1/4;
+    padding: 20px;
     text-align: center;
 }
 
 .card {
     display: flex;
-    flex-grow: 7;
-    padding: 20px;
-    width: 70%;
+    flex-direction: column;
+    
     background-color: #dda15e;
     border-radius: 10px;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 5%;
 
+
+}
+.country-div{
+    padding: 20px;
+    flex: auto;
 }
 
 .card-content {
     padding: 20px;
     font-size: 20px;
 }
+p{font-size: 20px;}
 
 img {
 
     border-radius: 10px;
+    float: left;
+    margin-right: 1em;
 }
 
 .card2 {
-    flex-grow: 3;
+    flex: auto;
     padding: 20px;
-    width: 30%;
+    
 
     background-color: #dda15e;
     border-radius: 10px;
@@ -97,11 +104,19 @@ img {
     margin: 5%;
 
 }
-
+.card2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    list-style-type: none;
+    margin-top: 2em;
+}
 
 .img-flag {
 
     width: 20%;
-    height: 20%;
-    object-fit: cover;
+    height: 80%;
+    
+    float: right;
 }
+
