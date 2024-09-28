@@ -1,0 +1,110 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: cadetblue;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+
+nav a {
+    display: block;
+    color: #333;
+    padding: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.temple-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3em;
+    padding: 1em;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: cadetblue;
+    color: #333;
+}
+
+.hamburger {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    margin-left: 1em;
+}
+
+
+nav ul {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+}
+
+
+nav ul.open {
+    display: block; 
+    text-align: center;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    right: 0; 
+    background-color: cadetblue; 
+}
