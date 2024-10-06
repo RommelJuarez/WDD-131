@@ -94,7 +94,9 @@ main {
     text-align: left;
     color: var(--text-color);
 }
-
+.weather-icon{
+    height: 50px;
+}
 .card-2 h2:hover .weather-icon {
     transform: scale(1.3);
 }
