@@ -94,6 +94,15 @@ main {
     text-align: left;
     color: var(--text-color);
 }
+.card-1 h2::after,
+.card-2 h2::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #000; 
+    
+}
 .weather-icon{
     height: 50px;
 }
