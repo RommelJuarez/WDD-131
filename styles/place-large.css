@@ -51,5 +51,15 @@
     background-color: #000; 
      
 }
+.weather-icon{
+    height: 50px;
+}
+.weather-icon-wide {
+    display: none; 
+}
+
+.weather-icon-small {
+    display: inline; 
+}
 
 }

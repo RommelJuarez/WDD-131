@@ -103,8 +103,13 @@ main {
     background-color: #000; 
     
 }
-.weather-icon{
-    height: 50px;
+
+.weather-icon-wide {
+    display: inline; 
+}
+
+.weather-icon-small {
+    display: none; 
 }
 .card-2 h2:hover .weather-icon {
     transform: scale(1.3);
