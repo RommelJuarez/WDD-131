@@ -1,4 +1,4 @@
-/* General reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -84,7 +84,7 @@ footer {
     font-size: 2rem;
     background: none;
     border: none;
-    color: black; /* Cambiar a un color más oscuro */
+    color: black; 
     
     cursor: pointer;
     margin-left: 1em;
