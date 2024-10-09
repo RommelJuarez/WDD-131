@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: black;
+
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: rgb(116, 205, 208);
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: rgb(116, 205, 208);
+    color: black;
+}
+
+.fade {
+    padding: 5px;
+    display: block;
+    opacity: 0; /* Comienza con la opacidad en 0 */
+    animation: fadeIn 2s forwards; /* Aplica la animación 'fadeIn' de 2 segundos */
+}
+
+/* Definición de la animación */
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Al final de la animación, la opacidad es 1 */
+    }
+}
